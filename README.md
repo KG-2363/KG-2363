@@ -6,7 +6,7 @@ Lead Data Engineer specializing in large-scale pipelines on **Databricks, PySpar
 - 🌱 **Currently deepening:** dimensional modeling (Kimball / star schema), system design for data engineers, and the ClickHouse / Kafka+Debezium / LangGraph / MCP stack
 - 🎯 **Targeting:** Architecture Lead / Staff Data Engineer roles — product companies solving hard data problems at scale
 - 💬 **Ask me about:** medallion architecture, YAML-driven pipeline configs, source-to-target mapping (STTM), or schema design tradeoffs (3NF vs. star schema)
-- 📫 **Reach me:** [LinkedIn](#) &nbsp;·&nbsp; [Portfolio](#)
+- 📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/kumar-govind-863b73120/) &nbsp;·&nbsp; [Portfolio](#)
 
 <!-- Replace the (#) links above with your actual LinkedIn / portfolio URLs -->
 

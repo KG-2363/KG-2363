@@ -6,9 +6,8 @@ Lead Data Engineer specializing in large-scale pipelines on **Databricks, PySpar
 - 🌱 **Currently deepening:** dimensional modeling (Kimball / star schema), system design for data engineers, and the ClickHouse / Kafka+Debezium / LangGraph / MCP stack
 - 🎯 **Targeting:** Architecture Lead / Staff Data Engineer roles — product companies solving hard data problems at scale
 - 💬 **Ask me about:** medallion architecture, YAML-driven pipeline configs, source-to-target mapping (STTM), or schema design tradeoffs (3NF vs. star schema)
-- 📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/kumar-govind-863b73120/) &nbsp;·&nbsp; [Portfolio](#)
+- 📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/kumar-govind-863b73120/)
 
-<!-- Replace the (#) links above with your actual LinkedIn / portfolio URLs -->
 
 ---
 
@@ -39,26 +38,21 @@ Lead Data Engineer specializing in large-scale pipelines on **Databricks, PySpar
 
 #### 🚀 Featured projects
 
-**[Local RAG System](#)**
-Retrieval-augmented Q&A pipeline built end-to-end: ChromaDB for vector storage, sentence-transformers for embeddings, FastAPI backend, Ollama for local inference.
-`Python` `ChromaDB` `FastAPI` `Ollama`
+**[Multilingual Call-Centre Analytics](https://github.com/KG-2363/call-centre-multilingual-analytics)**
+Speech and conversation analytics for Indian contact centres across English, Hindi, Hinglish and romanised Hindi: faster-whisper ASR and a local LLM feeding a Bronze → Silver → Gold DuckDB warehouse with compliance checks, agent scorecards and escalation prediction. 120 tests in CI.
+`Python` `DuckDB` `faster-whisper` `Ollama` `scikit-learn`
 
-**[Bank Statement Spending Dashboard](#)**
-Client-side dashboard that parses bank statements and visualizes spending patterns entirely in-browser — no server, no data leaves the client.
-`React` `Recharts` `SheetJS`
+**[Data + AI YouTube Course](https://github.com/KG-2363/data-ai-youtube-course)**
+Lecture decks, guides and labs for data analysis, data engineering and ML. Includes a runnable CDC platform: Postgres → Debezium → Kafka (KRaft) → Spark Structured Streaming → Delta Lake medallion, with Airflow 3, Terraform and tests.
+`Kafka` `Debezium` `PySpark` `Delta Lake` `Airflow` `Terraform`
 
-**[MemVault — Photography Platform Concept](#)**
-Full-stack platform concept for the Indian photography market: architecture, pitch deck, and interactive prototype, designed around GCP and DPDP Act 2023 compliance as a differentiator.
-`GCP` `System Design` `DPDP Act 2023`
+**[MemVault](https://github.com/KG-2363/mem-vault)**
+Multi-tenant photo storage and AI-enhancement SaaS on GCP, kept inside India's data-residency boundary: event-driven upload → enhance → deliver flow over Cloud Run and Pub/Sub, with Terraform and Kubernetes manifests. Phase 1 of 8 in progress.
+`GCP` `Pub/Sub` `Cloud Run` `Terraform` `Kubernetes` `DPDP Act 2023`
 
-**[GA4 → Delta Lake Pipeline (pattern)](#)**
-Medallion-architecture bronze-to-silver pipeline pattern for GA4 event data on Databricks: YAML-driven config covering 40+ event types, struct flattening, schema-safe column selection.
-`PySpark` `Delta Lake` `Databricks` `YAML`
-
-<!-- Replace (#) with real repo links once each project has its own documented repo.
-     Note: if the GA4 pipeline is built on employer infrastructure/data, publish a
-     generalized version (synthetic schema, no proprietary config) rather than the
-     production code itself. -->
+**[Jarvis](https://github.com/KG-2363/jarvis)**
+Local Windows desk assistant: wake on a double clap or "Hello Jarvis", then shows Jira issues, Outlook mail, Teams notifications and to-dos in one window. Tested in CI, MIT licensed.
+`Python` `PySide6` `Jira API` `CI`
 
 ---
 
